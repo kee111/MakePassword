@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class PasswordMaker {
     public static void main(String[] args) {
-        System.out.println("パスワードの長さを入力してください");
+        System.out.print("パスワードの長さを入力してください:");
 
         Scanner sc = new Scanner(System.in);
         int passwordLength = sc.nextInt();
