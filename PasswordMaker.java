@@ -7,7 +7,7 @@ public class PasswordMaker {
 
         Scanner sc = new Scanner(System.in);
         int passwordLength = sc.nextInt();
-        System.out.println("生成されたパスワードは" + passmaker(passwordLength) + "です");
+        System.out.println("生成されたパスワードは " + passmaker(passwordLength) + " です!");
         sc.close();
 
     }
