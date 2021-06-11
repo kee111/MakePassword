@@ -9,6 +9,8 @@ public class PasswordMaker {
         int passwordLength = sc.nextInt();
         System.out.println(passmaker(passwordLength));
 
+        sc.close();
+
     }
 
     static String passmaker(int hoge) {
